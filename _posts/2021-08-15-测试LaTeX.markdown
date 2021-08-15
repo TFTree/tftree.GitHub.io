@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "测试LaTeX"
+date:   2021-08-15 17:53:46 +0800
+categories: jekyll update
+tags: ["测试LaTeX"]
+author: TFTree
+---
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are $$x_1 = {-b + \sqrt{b^2-4ac} \over 2a}$$ $$x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag$$
