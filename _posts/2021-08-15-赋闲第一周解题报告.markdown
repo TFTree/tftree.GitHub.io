@@ -3,6 +3,7 @@ layout: post
 title:  "赋闲第一周解题报告"
 date:   2021-08-15 17:53:46 +0800
 categories: jekyll update
+tags: ["第一篇博客"]
 ---
 # 赋闲第一周结题报告
 
