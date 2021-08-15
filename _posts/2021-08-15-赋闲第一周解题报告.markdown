@@ -5,6 +5,18 @@ date:   2021-08-15 17:53:46 +0800
 categories: jekyll update
 tags: ["第一篇博客"]
 author: TFTree
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
+cover: http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg
+## Mermaid
+mermaid: true # false (default), true
+
+## Chart
+chart: true # false (default), true
+lightbox: true
+sharing: true
+show_subscribe: true
+show_author_profile: true
 ---
 # 赋闲第一周结题报告
 
