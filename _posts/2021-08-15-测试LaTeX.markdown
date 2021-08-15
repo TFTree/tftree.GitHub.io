@@ -20,11 +20,18 @@ show_author_profile: true
 ---
 When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are $$x_1 = {-b + \sqrt{b^2-4ac} \over 2a}$$ $$x_2 = {-b - \sqrt{b^2-4ac} \over 2a} \notag$$
 
+$\left|                --左边的竖线
+\begin{array}{lcr}     --一个array的开始, l/c/r表示列的对齐方式左/中/右
+a & b & c \\           --&分隔列 \\换行 
+d & e & f 
+\end{array}            --一个array的结束
+\right|$               --右边的竖线
+
 ![卡萨丁头像](https://gss3.bdstatic.com/84oSdTum2Q5BphGlnYG/timg?wapp&quality=80&size=b150_150&subsize=20480&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&srctrace&di=c2239bf37d54195610bcae0b43b74099&wh_rate=null&src=http%3A%2F%2Ftiebapic.baidu.com%2Fforum%2Fwh%3D120%2C120%2Fsign%3D12110d11c643ad4ba67b4ec1b032769e%2F9358d109b3de9c821a7a093b7b81800a19d84363.jpg)
 
-![QQ图片20210815235953](D:\GitHub repository\tftree.GitHub.io\images\QQ图片20210815235953.jpg)
+![QQ图片20210815235953](\images\QQ图片20210815235953.jpg)
 
-![QQ图片20210815235958](D:\GitHub repository\tftree.GitHub.io\images\QQ图片20210815235958.jpg)
+![QQ图片20210815235958](\images\QQ图片20210815235958.jpg)
 
-![QQ图片20210816000005](D:\GitHub repository\tftree.GitHub.io\images\QQ图片20210816000005.jpg)
+![QQ图片20210816000005](\images\QQ图片20210816000005.jpg)
 
