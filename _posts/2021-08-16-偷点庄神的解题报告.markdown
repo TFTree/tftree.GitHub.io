@@ -182,7 +182,7 @@ priority_queue<ll, vector<ll>, greater<ll> > pq;
 
 void solve(){
 	n = read();
-	ll suma = 0;
+ ll suma = 0;
 	for (int i=1;i<=n;++i){
 		a[i] = read();
 	}
@@ -198,97 +198,3 @@ void solve(){
 	printf("%d\n", pq.size());
 }
 ```
-
-
-
-#### <span style=color:red;>1526D Kill Anton</span>
-
-https://codeforces.com/contest/1526/problem/D
-
-
-
-一个字符串$s$仅由ANOT四个字符构成，要求构造出一个$s$的排列$t$，使得$t$​​经过最多的操作次数，才能变回$s$​。对一次操作的定义为：交换任意相邻的两个字符$s_i$和$s_{i+1}$​​。
-
-我自己的思路：
-
-首先，我们可以想到，最终的答案，相同的字符应该是连在一起出现的。因为如果是分开的话，可能会变成这样：<img src="C:\Users\KZ\AppData\Roaming\Typora\typora-user-images\image-20210810115020199.png" alt="image-20210810115020199" style="zoom:67%;" /><img src="C:\Users\KZ\AppData\Roaming\Typora\typora-user-images\image-20210810115350557.png" alt="image-20210810115350557" style="zoom:67%;" />
-
-本来是想把开头的A调换到最后一位的，但是由于采取最优策略，把离N最近的A调换到了最后面。除非变成这样，使得所有的A调换到后面都要花费很多距离，也就是所有的A都挨在一起。当然这只是我做题时候感性的想法。那么一共只有4个字符，只要把所有排列情况全部算一遍，看他们谁需要调换的次数最多，就输出那种排列方式。
-
-有了这个想法之后，我发现自己不知道怎么算调换次数QAQ。然后看了dalao的算法。
-
-```c++
-for (int i=0;i<4;++i){
-    for (int j=0;j<4;++j){
-        if (i==j) continue;
-        int num = 0;
-        for (int k=0;k<slen;++k){
-            if (a[k]==i) score[i][j]+=num;
-            if (a[k]==j) num++;
-        }
-    }
-}
-```
-
-程序结束之后，$score[i][j]$中存储的就是每个$i$类型的字符，前面有多少个$j$类型的字符。那么，很显然，如果要把所有$i$类型字符调换到最前面，那么花费的操作次数就是$\sum\limits_{j=0}^4score[i][j]$。然后，如果$k$类型字符，要调换到$i$的后面，那么花费的操作次数就是$\sum\limits_{j=0}^4score[k][j]-score[k][i]$。以此类推，当确定了字符串的排列$p$后，则可以算出当前排列需要花费的操作次数$now$，$now=\sum\limits_{i=0}^4\sum\limits_{j=i+1}^4score[p_i][p_j]$​。好巧妙！真的写的很巧妙很漂亮啊！
-
-完整的AC代码在这里啦：
-
-```c++
-string s;
-string ex="ANOT";
-map<char,int> ma = {{'A',0},{'N',1},{'O',2},{'T',3}};
-const int Max_n = 1e5 + 10;
-int a[Max_n];
-ll cnt[4], score[4][4];
-
-void init(){
-	memset(cnt,0,sizeof(cnt));
-	memset(score,0,sizeof(score));
-}
-
-void solve(){
-	cin >> s;
-	int slen = s.size();
-	init();
-	for (int i=0;i<slen;++i){
-		a[i] = ma[s[i]];
-		cnt[a[i]]++;
-	}
-	for (int i=0;i<4;++i){
-		for (int j=0;j<4;++j){
-			if (i==j) continue;
-			int num = 0;
-			for (int k=0;k<slen;++k){
-				if (a[k]==i) score[i][j]+=num;
-				if (a[k]==j) num++;
-			}
-		}
-	}
-	ll res = -1;
-	vector<int> best;
-	vector<int> p = {0,1,2,3};
-	do{
-		ll now = 0;
-		for (int i=0;i<4;++i){
-			for (int j=i+1;j<4;++j){
-				now += score[p[i]][p[j]];
-			}
-		}
-		if (now > res){
-			res = now;
-			best = p;
-		}
-	}while (next_permutation(p.begin(), p.end()));
-	string ans;
-	for (int i=0;i<4;++i){
-		for (int j=0;j<cnt[best[i]];++j){
-			ans += ex[best[i]];
-		}
-	}
-	cout << ans << endl;
-}
-```
-
-
-
