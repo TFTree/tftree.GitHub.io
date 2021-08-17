@@ -17,7 +17,8 @@ article_header:
   type: overlay
   theme: dark
   background_color: #'#123' #当 type 为 overlay 时有效。当设置的背景色较深时，你需要设置 theme 为 dark。
-  background_image: "http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg" #当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。
+  background_image: 
+    src: "http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg" #当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。
   image: #当 type 为 cover 时有效。
   
 
