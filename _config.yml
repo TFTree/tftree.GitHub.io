@@ -141,7 +141,7 @@ comments:
     app_id      : dlKUm3DrhCjW7IbBm2PF1Tqq-gzGzoHsz # LeanCloud App id
     app_key     : xj79u1bDmeuxDeikbq0rz1Y7 # LeanCloud App key
     placeholder : # Prompt information
-    visitor     : true # false (default)
+    visitor     : false # false (default)
     meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
 
 
@@ -154,7 +154,7 @@ pageview:
   leancloud:
     app_id    : dlKUm3DrhCjW7IbBm2PF1Tqq-gzGzoHsz # LeanCloud App id
     app_key   : xj79u1bDmeuxDeikbq0rz1Y7 # LeanCloud App key
-    app_class : Test # LeanCloud App class
+    app_class : Counter # LeanCloud App class
 
 
 ## => Search
