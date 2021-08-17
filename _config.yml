@@ -128,12 +128,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 9e7f957ef8ecaba0ff98 # GitHub Application Client ID
+    clientID: 9e7f957ef8ecaba0ff98 # GitHub Application Client ID
     clientSecret: 96a023d84220490667d8509f8220168d4ef5a472 # GitHub Application Client Secret
-    repository  : blog-comment # GitHub repo
-    owner       : TFTree # GitHub repo owner
-    admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-       - TFTree
+    repository: blog-comment # GitHub repo
+    owner: TFTree # GitHub repo owner
+    admin: # Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
+    - TFTree
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
