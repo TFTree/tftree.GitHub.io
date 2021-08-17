@@ -1,5 +1,5 @@
 ---
-layout: post #必填
+layout: article #必填
 lang: zh #中文
 pageview: true #阅读量统计
 comment: true #开启评论
