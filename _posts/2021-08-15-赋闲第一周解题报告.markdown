@@ -1,23 +1,31 @@
 ---
-layout: post
-title:  "赋闲第一周解题报告"
-date:   2021-08-15 17:53:46 +0800
-categories: jekyll update
-tags: ["第一篇博客"]
-author: TFTree
-mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
-cover:  http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg
-## Mermaid
-mermaid: true # false (default), true
+layout: post #必填
+lang: zh #中文
+pageview: true #阅读量统计
+comment: true #开启评论
+mathjax: true # 开启Mathjax 公式支持
+mathjax_autoNumber: true # 该页的 Mathjax 公式开启自动编号
+mermaid: true #开启 Mermaid 流程图支持
+chart: true # 开启 Chart 图表支持
+lightbox: true #开启大图点击预览
+sharing: true #开启分享
+show_author_profile: true #显示作者信息
+show_subscribe: true #在文章末尾显示订阅信息
+license: true #显示文章的许可协议
 
-## Chart
-chart: true # false (default), true
-lightbox: true
-sharing: true
-show_subscribe: true
-show_author_profile: true
-toc: true
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  image: cover
+
+title: "赋闲第一周解题报告" #标题
+show_title: true #显示标题
+date: 2021-08-15 17:53:46 +0800 #日期 必填
+key: "A2021-8-17-15:24:19" #页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（[A-Za-z]）开头，其后可以接若干字母、数字（[0-9]）、连字符（-）、下划线（_）、冒号（:）和小数点（.）。
+author: TFTree #作者
+tags: ["第一篇博客","blogs"] #标签
+cover:  "http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg"  #封面图片的 URL
 ---
 # 赋闲第一周结题报告
 
