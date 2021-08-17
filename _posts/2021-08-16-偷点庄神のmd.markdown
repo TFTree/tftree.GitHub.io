@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title:  "偷点庄神解题报告"
 date:   2021-08-16 17:00:32 +0800
 categories: jekyll update
