@@ -133,7 +133,7 @@ comments:
     repository  : "blog-comment" # GitHub repo
     owner       : "TFTree" # GitHub repo owner
     admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-       - "TFTree"
+       - "83645868"
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
@@ -148,7 +148,7 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:

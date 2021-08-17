@@ -3,7 +3,7 @@ layout: article
 title:  "偷点庄神解题报告"
 date:   2021-08-16 17:00:32 +0800
 categories: jekyll update
-tags: ["庄神解题报告"]
+tags: ["庄神の解题报告"]
 author: 庄神
 mathjax: true # false (default), true
 mathjax_autoNumber: true # false (default), true
@@ -77,7 +77,7 @@ void solve(){
 
 #### 1526A Mean Inequality
 
-水题，假如$n=5$​，那么先排序，然后按照1 10 2 9 3 8 4 7 5 6那么排就可以了，这样保证了$\forall  i \in [1,n],\  a_i<a_{i+1} \& a_i<a_{i-1}\  ||\  \ a_i>a_{i+1}\&a_i>a_{i-1}$​
+水题，假如$n=5$​，那么先排序，然后按照1 10 2 9 3 8 4 7 5 6那么排就可以了
 
 #### 1526B I Hate 1111
 
