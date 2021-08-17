@@ -20,9 +20,9 @@ text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", 
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 欢迎来到TFTree的blog！
+title   : 这里是TFTree的blog！
 description: > # this means to ignore newlines until "Language & timezone"
-  这里是摸鱼内容的生产基地
+  摸鱼内容的生产基地
 
 
 ## => Language and Timezone
@@ -78,7 +78,7 @@ license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4
 
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: "h1,h2,h3" # "h1,h2,h3" (default)
 
 
 ## => Markdown Enhancements
@@ -92,6 +92,7 @@ mermaid: true # false (default), true
 
 ## Chart
 chart: true # false (default), true
+
 
 
 ## => Paginate
@@ -108,7 +109,7 @@ sources: bootcdn # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -118,7 +119,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,12 +128,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    clientID    : "9e7f957ef8ecaba0ff98" # GitHub Application Client ID
+    clientSecret: "96a023d84220490667d8509f8220168d4ef5a472" # GitHub Application Client Secret
+    repository  : "blog-comment" # GitHub repo
+    owner       : "TFTree" # GitHub repo owner
+    admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+       - "TFTree"
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
@@ -151,9 +152,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : "dlKUm3DrhCjW7IbBm2PF1Tqq-gzGzoHsz" # LeanCloud App id
+    app_key   : "xj79u1bDmeuxDeikbq0rz1Y7" # LeanCloud App key
+    app_class : "博客阅读量统计" # LeanCloud App class
 
 
 ## => Search
