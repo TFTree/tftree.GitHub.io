@@ -16,12 +16,10 @@ license: true #显示文章的许可协议
 article_header:
   type: overlay
   theme: dark
-  background_color: #'#123' #当 type 为 overlay 时有效。当设置的背景色较深时，你需要设置 theme 为 dark。
-  background_image: 
-    src: "http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg" #当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。
+  background_color: '#123' #当 type 为 overlay 时有效。当设置的背景色较深时，你需要设置 theme 为 dark。
+  background_image: #当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。
   image: #当 type 为 cover 时有效。
   
-
 title: "赋闲第一周解题报告" #标题
 date: 2021-08-15 17:53:46 +0800 #日期 必填
 key: "A2021-8-17-15:24:19" #页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（[A-Za-z]）开头，其后可以接若干字母、数字（[0-9]）、连字符（-）、下划线（_）、冒号（:）和小数点（.）。

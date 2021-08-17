@@ -1,23 +1,30 @@
 ---
-layout: article
-title:  "偷点庄神解题报告"
-date:   2021-08-16 17:00:32 +0800
-categories: jekyll update
-tags: ["庄神の解题报告"]
-author: 庄神
-mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
-cover:  http://picture.ik123.com/uploads/allimg/191011/12-191011160408.jpg
-## Mermaid
-mermaid: true # false (default), true
+layout: article #必填
+lang: zh #中文
+pageview: true #阅读量统计
+comment: true #开启评论
+mathjax: true # 开启Mathjax 公式支持
+mathjax_autoNumber: true # 该页的 Mathjax 公式开启自动编号
+mermaid: true #开启 Mermaid 流程图支持
+chart: true # 开启 Chart 图表支持
+lightbox: true #开启大图点击预览
+sharing: true #开启分享
+show_author_profile: true #显示作者信息
+show_subscribe: true #在文章末尾显示订阅信息
+license: true #显示文章的许可协议
 
-## Chart
-chart: true # false (default), true
-lightbox: true
-sharing: true
-show_subscribe: true
-show_author_profile: true
-toc: true
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#123' #当 type 为 overlay 时有效。当设置的背景色较深时，你需要设置 theme 为 dark。
+  background_image: #当 type 为 overlay 时有效，设置为 false 可覆盖 cover 禁止背景图片。
+  image: #当 type 为 cover 时有效。
+  
+title: "庄神の解题报告" #标题
+date:  2021-08-16 17:00:32 +0800 #日期 必填
+key: "A2021-08-16-17:00:32" #页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（[A-Za-z]）开头，其后可以接若干字母、数字（[0-9]）、连字符（-）、下划线（_）、冒号（:）和小数点（.）。
+author: 庄神 #作者
+tags: ["庄神の解题报告"] #标签
 ---
 
 ### 1451 Div2
