@@ -152,9 +152,9 @@ pageview:
 
   ## Leancloud
   leancloud:
-    app_id    : "dlKUm3DrhCjW7IbBm2PF1Tqq-gzGzoHsz" # LeanCloud App id
-    app_key   : "xj79u1bDmeuxDeikbq0rz1Y7" # LeanCloud App key
-    app_class : "博客阅读量统计" # LeanCloud App class
+    app_id    : dlKUm3DrhCjW7IbBm2PF1Tqq-gzGzoHsz # LeanCloud App id
+    app_key   : xj79u1bDmeuxDeikbq0rz1Y7 # LeanCloud App key
+    app_class : 博客阅读量统计 # LeanCloud App class
 
 
 ## => Search
