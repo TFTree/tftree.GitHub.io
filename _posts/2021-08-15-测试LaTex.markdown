@@ -24,7 +24,7 @@ title: 测试LaTeX #标题
 date:   2021-08-15 17:55:46 +0800 #日期 必填
 key: A2021-08-15-17:55:46 #页面的唯一标识符，供评论系统和点击量统计使用。必须以字母（[A-Za-z]）开头，其后可以接若干字母、数字（[0-9]）、连字符（-）、下划线（_）、冒号（:）和小数点（.）。
 author: TFTree #作者
-tags: ["测试LaTeX"] #标签
+tags: ["测试"] #标签
 ---
 When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
 $$x_1 = {-b + \sqrt{b^2-4ac} \over 2a}$$
