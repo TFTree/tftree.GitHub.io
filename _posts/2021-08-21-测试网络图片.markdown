@@ -29,13 +29,14 @@ tags: ["测试"] #标签
 
 ### 帮庄神测试一波网络图片
 
-![img](D:/GitHub%20repository/tftree.GitHub.io/images/pic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+![img1](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/6f2642a7d933c895c534cd3ec61373f08202002a.jpg){:.border.rounded}
 
-![img](D:/GitHub%20repository/tftree.GitHub.io/images/cdn.getimg.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+![img](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/e224cffc1e178a8295772ae5e103738da977e82a.jpg){:.border.rounded}
 
-![img](D:/GitHub%20repository/tftree.GitHub.io/images/pic1.win4000.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+![img](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/c18987d6277f9e2f467e484d0830e924b899f32a.jpg){:.border.rounded}
 
-![img](D:/GitHub%20repository/tftree.GitHub.io/images/img9.51tietu.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+![img](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/c61ca8d3fd1f4134497f503b321f95cad1c85e29.jpg){:.border.rounded}
 
-![img](D:/GitHub%20repository/tftree.GitHub.io/images/picture.ik123.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+![img](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/b2190ef41bd5ad6eddb231af96cb39dbb6fd3c29.jpg){:.border.rounded}
 
+![img](D:/GitHub%20repository/tftree.GitHub.io/images/2021-08-21-%E6%B5%8B%E8%AF%95%E7%BD%91%E7%BB%9C%E5%9B%BE%E7%89%87/12894710b912c8fc3079a388eb039245d78821eb.jpg)
